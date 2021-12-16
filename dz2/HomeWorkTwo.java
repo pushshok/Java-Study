@@ -1,3 +1,9 @@
+/**
+ * Java 1. Homework #2.
+ * @author Zdibnyak Maxim
+ * @version 12.12.2021
+ */
+
 package ru.geekbrains.home_work_app;
 
 public class HomeWorkTwo {
