@@ -1,7 +1,7 @@
 /**
  * Java 1. Homework #3.
  * @author Zdibnyak Maxim
- * @version 13.12.2021
+ * @version_1.1 16.12.2021
  */
 package ru.geekbrains.home_work_app;
 import java.util.Arrays;
@@ -16,7 +16,7 @@ public class HomeWorkThree {
         emptyArray();
         multiplyArray();
         twoDimensionalArray();
-        lengthArray(10, 3);
+        System.out.println("Array #5:" + Arrays.toString(lengthArray(10, 3)) + "\n\n");
         minAndMax();
         System.out.println(leftAndRight(arr) + "\n");
         swingArray(arr, 2);
@@ -74,12 +74,12 @@ public class HomeWorkThree {
         System.out.print("\n");
     }
 
-    static void lengthArray(int len, int initialValue) {
+    static int[] lengthArray(int len, int initialValue) {
         int [] arr = new int[len];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = initialValue;
         }
-        System.out.println("Array #5:" + Arrays.toString(arr) + "\n\n");
+        return arr;
     }
 
     static void minAndMax() {
