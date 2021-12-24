@@ -1,9 +1,3 @@
-/**
- * Java 1. Homework #5.
- * @author Zdibnyak Maxim
- * @version_1.1 23.12.2021
- */
-
 package ru.geekbrains.home_work_app;
 
 public class Person {
@@ -13,9 +7,6 @@ public class Person {
     private String phone;
     private float salary;
     private int age;
-
-    public static void main(String[] args) {
-    }
 
     Person(String fullName, String position, String email, String phone, float salary, int age) {
         this.fullName = fullName;
