@@ -6,3 +6,4 @@
 ### ДЗ3 - Java. Практика - branch java1-dz3
 ### ДЗ4 - Java. Крестики-нолики в процедурном стиле - branch java1-dz4
 ### ДЗ5 - Java. Введение в ООП - branch java1-dz5
+### ДЗ6 - Java. Продвинутое ООП - branch java1-dz6
